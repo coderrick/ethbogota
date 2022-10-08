@@ -3,6 +3,17 @@
 !include <material/common>
 ' To import the sprite file you DON'T need to place a prefix!
 !include <material/folder_move>
+!include <material/monitor>
+!include <material/window_restore>
+!include <material/security_network>
+!include <material/file_outline>
+!include <material/lan>
+!include <material/credit_card>
+!include <material/lock>
+!include <material/bell>
+!include <material/account_card_details>
+!include <material/web>
+!include <material/cloud>
 
 '********************AWS**********************
 !include <awslib/AWSCommon>
@@ -13,10 +24,30 @@
 !theme materia-outline
 
 'DEFINITIONS
-Users(sources, "Users", "millions of users")
+Users(user, "Users", "millions of users")
+MA_MONITOR(Red, 1, website, rectangle, "Website")
+MA_WINDOW_RESTORE(Black, 1, extension, rectangle, "Extension")
+MA_SECURITY_NETWORK(Black, 1, security, rectangle, "Security")
+MA_FILE_OUTLINE(Black, 1, smartcontract, rectangle, "smartcontract")
+MA_WEB(Black, 1, oracle, rectangle, "chainlink")
+MA_CLOUD(Black, 1, api_data, rectangle, "API")
+MA_LAN(Black, 1, optimism, rectangle, "Optimism")
+MA_LAN(Black, 1, coinbase, rectangle, "coinbase cloud")
+MA_LAN(Black, 1, ethereum, rectangle, "Ethereum")
+MA_CREDIT_CARD(Black, 1, wallet, rectangle, "[wallet]")
+MA_LOCK(Black, 1, auth, rectangle, "[ens]")
+MA_BELL(Black, 1, notification, rectangle, "[message signal]")
+MA_ACCOUNT_CARD_DETAILS(Black, 1, identity, rectangle, "worldcoin")
 MA_FOLDER_MOVE(Red, 1, dir, rectangle, "Filecoin")
 
-
 'DIAGRAM
-sources -> dir : hello
+user -> website : Visit Exchange
+website -> extension : Open the extension
+extension -> security
+security -> smartcontract
+smartcontract -> oracle
+api_data --> oracle
+smartcontract --> optimism
+smartcontract --> ethereum
+smartcontract --> coinbase
 @enduml
