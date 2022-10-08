@@ -1,0 +1,22 @@
+@startuml
+'******************Material*******************
+!include <material/common>
+' To import the sprite file you DON'T need to place a prefix!
+!include <material/folder_move>
+
+'********************AWS**********************
+!include <awslib/AWSCommon>
+!include <awslib/AWSSimplified>
+!include <awslib/General/Users>
+
+'*********************Theme********************
+!theme materia-outline
+
+'DEFINITIONS
+Users(sources, "Users", "millions of users")
+MA_FOLDER_MOVE(Red, 1, dir, rectangle, "Filecoin")
+
+
+'DIAGRAM
+sources -> dir : hello
+@enduml
