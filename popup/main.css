@@ -9,8 +9,9 @@
 
 img{
   display: block;
-  margin-left: 100px!important;
+  margin-left: 50px!important;
   margin-top: -20px!important;
+  background-color: antiquewhite;
 }
 
 .left-side{
