@@ -3,15 +3,14 @@
 }
 .trade-button{
   width: 150px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: auto
 }
 
 img{
   display: block;
   margin-left: 50px!important;
   margin-top: -20px!important;
-  background-color: antiquewhite;
+  background-color: lightblue;
 }
 
 .left-side{
