@@ -3,7 +3,6 @@
 }
 .trade-button{
   width: 150px;
-  margin: auto
 }
 
 img{
@@ -32,6 +31,10 @@ img{
 span{
   color: gray;
   font-size: 0.75em;
+}
+
+.buttons{
+  margin: auto 0;
 }
 
 .buy{
