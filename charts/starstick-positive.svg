@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>starstick</title>
+	<style>
+		.s0 { fill: #808080 } 
+		.s1 { fill: #4747a9 } 
+	</style>
+	<path id="Shape 5" class="s0" d="m200.5 147.2v5h-146.5v-5z"/>
+	<path id="Background" class="s1" d="m91.2 67.3h25.9v164.6h-25.9z"/>
+	<path id="Shape 3" class="s0" d="m101.7 23h4.9v44.2h-4.9z"/>
+	<path id="Shape 4" class="s0" d="m101.7 231.6h4.9v53.1h-4.9z"/>
+</svg>
