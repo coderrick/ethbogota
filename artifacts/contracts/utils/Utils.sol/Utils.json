@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Utils",
+  "sourceName": "contracts/utils/Utils.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "blockNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "blockTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060868061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806357e871e7146037578063adb6183214604b575b600080fd5b435b60405190815260200160405180910390f35b42603956fea2646970667358221220ddd7d1a9026405af4dbd3214cc96d2e5767f8d42d896e8f67b1eea8c274488bf64736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806357e871e7146037578063adb6183214604b575b600080fd5b435b60405190815260200160405180910390f35b42603956fea2646970667358221220ddd7d1a9026405af4dbd3214cc96d2e5767f8d42d896e8f67b1eea8c274488bf64736f6c634300080d0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
