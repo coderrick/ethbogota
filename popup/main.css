@@ -34,7 +34,8 @@ span{
 }
 
 .buttons{
-  margin: auto 0;
+  display: block;
+  margin: auto;
 }
 
 .buy{
