@@ -21,7 +21,7 @@
         "size": 32
     }],
     "default_title": "Add-O(n)",
-    "default_popup": "popup/add_on_panel.html"
+    "default_popup": "popup/panel.html"
   },
 
   "web_accessible_resources": [
